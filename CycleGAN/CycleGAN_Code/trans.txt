@@ -1,0 +1,7 @@
+python inference.py --model model/horse2zebra.pb --input horse1.jpg --output fakezebra1.jpg
+
+python inference.py --model model/zebra2horse.pb --input fakezebra1.jpg --output fakehorse1.jpg
+
+python inference.py --model model/vangogh2photo.pb --input v1.jpg --output fakephoto1.jpg
+
+python inference.py --model model/photo2vangogh.pb --input fakephoto1.jpg --output fakevangogh1.jpg
